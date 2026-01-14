@@ -2,6 +2,8 @@
 
 This project is a React-based demonstration of a dynamic card component. The card uses `motion/react` (a library with a Framer Motion-like API) for animations and is styled with [Tailwind CSS](https://tailwindcss.com/).
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Here-blue?style=for-the-badge)](https://aman-shahi-dev.github.io/card-component-using-framer-motion)
+
 ## Features
 
 -   **Enter/Exit Animation**: The card gracefully fades and blurs into view when the component mounts, and animates out when closed. This is managed by the `<AnimatePresence>` component.
@@ -15,11 +17,6 @@ This project is a React-based demonstration of a dynamic card component. The car
 -   **[motion/react](https://motion.dev/)**: For the animations.
 -   **[Tailwind CSS](https://tailwindcss.com/)**: For all styling.
 -   **[Lucide React](https://lucide.dev/)** & **[Tabler Icons](https://tabler-icons.io/)**: For icons.
-
-
-## Live Demo
-
-[CHECK IT HERE](https://aman-shahi-dev.github.io/card-component-using-framer-motion/)
 
 ## How It Works
 
