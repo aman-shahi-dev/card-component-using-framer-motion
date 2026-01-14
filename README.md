@@ -34,7 +34,7 @@ To run this project, you'll need a setup with React and Tailwind CSS, likely thr
 
 ### Installation
 
-1.  **Clone the repository**
+1.  **Clone the repository** (or you can download the files manually)
 
 2.  **Navigate to the project directory:**
     ```bash
