@@ -34,23 +34,19 @@ To run this project, you'll need a setup with React and Tailwind CSS, likely thr
 
 ### Installation
 
-*Note: The following commands are based on a typical Vite project setup, as `package.json` was not provided. You may need to adjust them.*
+1.  **Clone the repository**
 
-1.  **Clone the repository** (if you have one).
-
-2.  **Install dependencies**. Your `package.json` should include the following. If not, you can install them manually:
+2.  **Navigate to the project directory:**
     ```bash
-    # For React and Motion
-    npm install react react-dom motion
-
-    # For icons
-    npm install lucide-react @tabler/icons-react
-
-    # Development dependencies for a Vite + Tailwind project
-    npm install -D vite @vitejs/plugin-react tailwindcss postcss autoprefixer
+    cd card-component-using-framer-motion
     ```
 
-3.  **Start the development server**:
+3.  **Install dependencies**.
+    ```bash
+    npm i
+    ```
+
+4.  **Start the development server**:
     ```bash
     npm run dev
     ```
