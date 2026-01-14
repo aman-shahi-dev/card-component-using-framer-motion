@@ -16,6 +16,11 @@ This project is a React-based demonstration of a dynamic card component. The car
 -   **[Tailwind CSS](https://tailwindcss.com/)**: For all styling.
 -   **[Lucide React](https://lucide.dev/)** & **[Tabler Icons](https://tabler-icons.io/)**: For icons.
 
+
+## Live Demo
+
+[CHECK IT HERE](https://aman-shahi-dev.github.io/card-component-using-framer-motion/)
+
 ## How It Works
 
 1.  **State Management**: A React state variable (`open`) is used to control the visibility of the card. Clicking the "Close the Card" button sets this state to `false`.
