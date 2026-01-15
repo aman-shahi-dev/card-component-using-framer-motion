@@ -2,6 +2,8 @@
 
 This project is a React-based demonstration of a dynamic card component. The card uses `motion/react` (a library with a Framer Motion-like API) for animations and is styled with [Tailwind CSS](https://tailwindcss.com/).
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Here-blue?style=for-the-badge)](https://aman-shahi-dev.github.io/card-component-using-framer-motion)
+
 ## Features
 
 -   **Enter/Exit Animation**: The card gracefully fades and blurs into view when the component mounts, and animates out when closed. This is managed by the `<AnimatePresence>` component.
@@ -29,23 +31,19 @@ To run this project, you'll need a setup with React and Tailwind CSS, likely thr
 
 ### Installation
 
-*Note: The following commands are based on a typical Vite project setup, as `package.json` was not provided. You may need to adjust them.*
+1.  **Clone the repository** (or you can download the files manually)
 
-1.  **Clone the repository** (if you have one).
-
-2.  **Install dependencies**. Your `package.json` should include the following. If not, you can install them manually:
+2.  **Navigate to the project directory:**
     ```bash
-    # For React and Motion
-    npm install react react-dom motion
-
-    # For icons
-    npm install lucide-react @tabler/icons-react
-
-    # Development dependencies for a Vite + Tailwind project
-    npm install -D vite @vitejs/plugin-react tailwindcss postcss autoprefixer
+    cd card-component-using-framer-motion
     ```
 
-3.  **Start the development server**:
+3.  **Install dependencies**.
+    ```bash
+    npm i
+    ```
+
+4.  **Start the development server**:
     ```bash
     npm run dev
     ```
